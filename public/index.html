@@ -4,16 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="MyIP,IP Tool,My IP,IP check,IP lookup,DNS leak test,WebRTC test,Speed test">
-  <meta name="description"
-    content="A better IP Toolbox. Easy to check what's your IPs, IP informations, check for DNS leaks, examine WebRTC connections, and test website availability">
+  <title>IP Chick - Discover Your IP, Geolocation, DNS Leak, WebRTC & Speed Test</title>
+  <meta name="description" content="IP Chick - Instant IP Address Lookup, Geolocation, DNS & WebRTC Testing, Speed Analysis">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.ipchick.com/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="IP Chick - Discover Your IP, Geolocation, DNS Leak, WebRTC & Speed Test">
+  <meta property="og:description" content="Find Your IP on IPChick.com, Geolocation, DNS & WebRTC Analysis, Internet Speed Test | Ultimate IP and Network Toolbox.">
+  <meta property="og:url" content="https://www.chatgemini.net/">
+  <meta property="og:site_name" content="IP Chick">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="IP Chick - Discover Your IP, Geolocation, DNS Leak, WebRTC & Speed Test">
+  <meta name="twitter:description" content="Find Your IP on IPChick.com, Geolocation, DNS & WebRTC Analysis, Internet Speed Test | Ultimate IP and Network Toolbox.">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#f8f9fa">
   <meta name="background-color" content="#ffffff">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="apple-touch-icon" href="res/img/logo-512.png">
-  <title>Check My IP Address and Geolocation | Check WebRTC Connection IP | DNS Leak Test | Speed Test | Jason Ng Open
-    Source </title>
   <!--  Bootstrap CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -39,9 +47,9 @@
     <nav id="navbar-top" class="navbar navbar-expand-lg bg-body-tertiary px-3 mb-3 jn-navbar-top"
       :class="{ 'dark-mode-nav navbar-dark bg-dark': isDarkMode }">
       <div class="jn-logo">
-        <a class="navbar-brand" :class="{ 'text-white': isDarkMode }" href="#" @click="handleLogoClick"><i
+        <h1><a class="navbar-brand" :class="{ 'text-white': isDarkMode }" href="#" @click="handleLogoClick"><i
             class="bi bi-box-seam-fill"></i>
-          {{currentTexts.nav.Title}}</a>
+          IP Chick</a></h1>
         <div class="form-check form-switch">
           <input class="form-check-input" type="checkbox" role="switch" id="darkModeSwitch" @change="toggleDarkMode"
             :checked="isDarkMode">
@@ -466,7 +474,7 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 
-  <!-- 引入 Vue.js -->
+  <!-- Vue.js -->
   <script src="res/vue.js"></script>
   <script type="module" src="res/app.js"></script>
 
