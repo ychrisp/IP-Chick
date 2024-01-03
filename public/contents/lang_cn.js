@@ -116,14 +116,8 @@ export default {
   },
   page: {
     title:
-      "查看我的 IP 地址 | 查询本机 IP 地址及归属地 | 查看 WebRTC 连接 IP ｜ DNS 泄露检测 | 网速测试 | Jason Ng 阿禅开源作品",
-    description:"一个更好的 IP 工具箱。轻松查看你的 IP 地址，IP 信息，检查 DNS 泄露，检查 WebRTC 连接，以及测试网站可用性",
-    keywords:"我的IP,IP工具,我的IP,IP查询,DNS泄漏测试,WebRTC测试,网速测试",
-    footerName: "Creators: Jason Ng, Seven Yu & ChatGPT",
-    footerLink: "https://github.com/jason5ng32/MyIP",
-    copyRightName: "Originally from ",
-    copyRightLink: "https://ipcheck.ing",
-    copyRightLinkName: "IPCheck.ing",
+      "IP Chick - 发现你的 IP、地理位置、DNS 泄露、WebRTC 和速度测试",
+    description:"在 IPChick.com 上查找您的 IP、地理位置、DNS 和 WebRTC 分析、网速测试 | 终极 IP 和网络工具箱。",
   },
   addBingMapKey: {
     Title: "添加 Bing Map API Key",
