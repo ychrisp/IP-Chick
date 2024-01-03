@@ -1,17 +1,12 @@
-# 🧰 MyIP - A Better IP Toolbox
-
-![GitHub Repo stars](https://img.shields.io/github/stars/jason5ng32/MyIP)
-![GitHub](https://img.shields.io/github/license/jason5ng32/MyIP)
-![GitHub contributors](https://img.shields.io/github/contributors/jason5ng32/MyIP)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/jason5ng32/MyIP)
+# 🧰 IPChick - All-in-One IP Toolbox
 
 [🇺🇸 English](README.md) | [🇨🇳 简体中文](README_CN.md)
 
-👉 Demo: [https://ipcheck.ing](https://ipcheck.ing)
+👉 Demo: [https://ipcheck.ing](https://ipchick.com)
 
 Notes: You can use my demo, but please don't use it for commercial purposes. If you want to use it for commercial purposes, please deploy it yourself.
 
-[![Deploy with Vercel](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/res/img/Vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjason5ng32%2FMyIP&project-name=MyIP&repository-name=MyIP)
+[![Deploy with Vercel](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/res/img/Vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/ychrisp/IP-Chick)
 [![Deploy with Docker](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/res/img/Docker.svg)](https://hub.docker.com/r/jason5ng32/myip)
 
 ## 👀 Main Features
@@ -41,7 +36,7 @@ Make sure you have Node.js installed.
 Clone the code:
 
 ```bash
-git clone https://github.com/jason5ng32/MyIP.git
+git clone https://github.com/ychrisp/IP-Chick.git
 ```
 
 Install:
@@ -142,6 +137,8 @@ DOMAIN-SUFFIX,ipify.org,Proxy
 
 70% of the code for this program was not written by me, but generated through ChatGPT. After about 90 rounds of back-and-forth and some minor manual adjustments, all the code was completed.
 
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=jason5ng32/MyIP&type=Date)](https://star-history.com/#jason5ng32/MyIP&Date)
+Credit to
+![GitHub Repo stars](https://img.shields.io/github/stars/jason5ng32/MyIP)
+![GitHub](https://img.shields.io/github/license/jason5ng32/MyIP)
+![GitHub contributors](https://img.shields.io/github/contributors/jason5ng32/MyIP)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/jason5ng32/MyIP)
