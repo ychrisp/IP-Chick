@@ -120,14 +120,8 @@ export default {
   },
   page: {
     title:
-      "Check My IP Address and Geolocation | Check WebRTC Connection IP | DNS Leak Test | Speed Test | Jason Ng Open Source",
-    description:"A better IP Toolbox. Easy to check what's your IPs, IP informations, check for DNS leaks, examine WebRTC connections, and test website availability",
-    keywords:"MyIP,IP Tool,My IP,IP check,IP lookup,DNS leak test,WebRTC test,Speed test",
-    footerName: "Creators: Jason Ng, Seven Yu & ChatGPT",
-    footerLink: "https://github.com/jason5ng32/MyIP",
-    copyRightName: "Originally from ",
-    copyRightLink: "https://ipcheck.ing",
-    copyRightLinkName: "IPCheck.ing",
+      "IP Chick - Discover Your IP, Geolocation, DNS Leak, WebRTC & Speed Test",
+    description:"Find Your IP on IPChick.com, Geolocation, DNS & WebRTC Analysis, Internet Speed Test | Ultimate IP and Network Toolbox.",
   },
   addBingMapKey: {
     Title: "Add Bing Map API Key",
