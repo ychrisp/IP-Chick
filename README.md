@@ -2,7 +2,7 @@
 
 [🇺🇸 English](README.md) | [🇨🇳 简体中文](README_CN.md)
 
-👉 Demo: [https://ipcheck.ing](https://ipchick.com)
+👉 Demo: [https://ipchick.com](https://www.ipchick.com)
 
 Notes: You can use my demo, but please don't use it for commercial purposes. If you want to use it for commercial purposes, please deploy it yourself.
 
