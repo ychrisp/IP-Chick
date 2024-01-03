@@ -259,3 +259,13 @@ footer {
 .speedtest-p {
     margin-top:10pt;
 }
+
+.h1 {
+    margin-top: 30px; /* Adjusts space above the H1 title with class .h1 */
+    margin-bottom: 30px; /* Adjusts space below the H1 title with class .h1 */
+}
+
+.h3 {
+    margin-top: 20px; /* Adjusts space above the H3 title with class .h3 */
+    margin-bottom: 20px; /* Adjusts space below the H3 title with class .h3 */
+}
