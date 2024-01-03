@@ -45,9 +45,9 @@
     <nav id="navbar-top" class="navbar navbar-expand-lg bg-body-tertiary px-3 mb-3 jn-navbar-top"
       :class="{ 'dark-mode-nav navbar-dark bg-dark': isDarkMode }">
       <div class="jn-logo">
-        <h1><a class="navbar-brand" :class="{ 'text-white': isDarkMode }" href="#" @click="handleLogoClick"><i
+        <a class="navbar-brand" :class="{ 'text-white': isDarkMode }" href="#" @click="handleLogoClick"><i
             class="bi bi-box-seam-fill"></i>
-          IP Chick</a></h1>
+          IP Chick</a>
         <div class="form-check form-switch">
           <input class="form-check-input" type="checkbox" role="switch" id="darkModeSwitch" @change="toggleDarkMode"
             :checked="isDarkMode">
@@ -100,6 +100,7 @@
     <div id="mainpart" class="container mt-5 jn-container">
       <div data-bs-spy="scroll" data-bs-target="#navbar-top" data-bs-root-margin="0px 0px -40%"
         data-bs-smooth-scroll="true" class="rounded-2" tabindex="0">
+        <h1>IP Chick - What is my IP address? Free public IP lookup</h1>
         <!-- IP Infos -->
         <div class="ip-data-section mb-4">
           <div class="row" :class="{'jn-title2': !isMobile,'jn-title':isMobile}">
@@ -452,9 +453,8 @@
         </div>
       </div>
     </div>
-
-    <div class="faq-content" itemprop="text">
-
+    
+    <div id="mainpart" class="container mt-5 jn-container">
      <h2>Understanding IP Addresses: A Comprehensive Guide</h2>
 <h3>What is an IP Address?</h3>
 An IP (Internet Protocol) address is a numerical label assigned to each device connected to a computer network. It serves two main functions: network interface identification and location addressing.
